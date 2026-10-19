@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.Locale;
 
 public class Main {
-	public static void main() {
+	public static void main(String[] args) {
 		NumberFormat idrFormat = NumberFormat.getCurrencyInstance(new Locale("id", "ID"));
 
 		ArrayList<Salary> salaries = new ArrayList<>();
